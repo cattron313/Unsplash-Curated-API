@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "NODE_ENV=development DEBUG=cip:* nodemon ./bin/www",
-    "start": "NODE_ENV=production nodemon ./bin/www",
+    "start": "NODE_ENV=production node ./bin/www",
     "test": "karma start",
     "watch:test": "npm test -- -- auto-watch --no-single-run"
   },
