@@ -1,0 +1,22 @@
+{
+  "name": "credited-image-placeholder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development DEBUG=cip:* nodemon ./bin/www",
+    "start": "NODE_ENV=production nodemon ./bin/www",
+    "test": "karma start",
+    "watch:test": "npm test -- -- auto-watch --no-single-run"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.0",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
